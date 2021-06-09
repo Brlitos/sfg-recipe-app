@@ -1,11 +1,10 @@
 package guru.springframework.spring5recipeapp.domain;
 
-import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 
-@EnableConfigurationProperties
+@Entity
 public class Ingredient {
 
     @Id
